@@ -315,3 +315,37 @@ footer {
     border: 1px solid #42718F;
     transition: 0.3s;
 }
+
+.prokat_main {
+    display: flex;
+    background-image: url(pics/bcg-proka.png);
+    align-items:center;
+    flex-direction: column;
+    gap: 60px;
+    padding-bottom: 89px;
+}
+
+.prokat-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 60px;
+}
+
+.prokat-img {
+    max-width: 1384px;
+}
+
+.prices-prokat {
+    display: flex;
+    max-width: 546px;
+    align-items:center;
+    flex-direction: column;
+    gap: 30px;
+    color:#Fff;
+}
+
+.ski-price {
+    text-align: center;
+    font-weight: 500;
+}
