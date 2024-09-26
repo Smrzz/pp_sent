@@ -245,7 +245,7 @@ footer {
     width: 100%;
     background-color: #42718F;
     height: 100%;
-    padding-top: 94px;
+    padding-top: 90px;
     padding-bottom: 95px;
     justify-content: center;
 }
@@ -318,7 +318,7 @@ footer {
 
 .prokat_main {
     display: flex;
-    background-image: url(pics/bcg-proka.png);
+    background-color:#42718F;
     align-items:center;
     flex-direction: column;
     gap: 60px;
@@ -348,4 +348,130 @@ footer {
 .ski-price {
     text-align: center;
     font-weight: 500;
+}
+  
+.form-popup {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    border: none;
+    z-index: 9;
+    bottom: 210px;
+  }
+  
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 491px;
+    padding: 10px;
+    background-color: #42718F;
+    gap: 20px;
+    border-radius: 5px;
+    color:white;
+    
+  }
+  
+  .form-container input[type=text] {
+    width: 360px;
+    padding: 15px;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  
+  .form-container input[type=text]:focus {
+    background-color: #fff;
+    outline: none;
+  }
+  
+  
+  .form-container .btn {
+    background-color: white;
+    color: #42718F;
+    
+    border: none;
+    cursor: pointer;
+    width: 149px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius:10px;
+  }
+  
+  .title-form-gast {
+    display: flex;
+    font-size: 32px;
+    font-weight: 500;
+    justify-content: center;
+  }
+
+  .tele-gast{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn:hover{
+    cursor: pointer;
+    border: 2px solid #42718F;
+  }
+
+  .news-main {
+    display: flex;
+    background-color:#42718F;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+    padding-bottom: 90px;
+  }
+
+  .news-title {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 44px;
+ }
+
+.news-blocks {
+    display: flex;
+    flex-direction: row;
+    max-width: 1385px;
+    padding-top: 60px;
+    justify-content: center;
+}
+
+.mainblock-news {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    max-height: 539px;
+}
+
+.text-main-news {
+    display: flex;
+    margin: 33px 31px ;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.seconds-blocks {
+    display: flex;
+    flex-direction: column;
+    background-color:#fff;
+}
+
+.t-news{
+    display: flex;
+    flex-direction: row;
+}
+
+.news-text {
+    display: flex;
+    font-size: 20;
+    font-weight: 400;
+    text-align: justify;
+    margin: 20px 20px;
+    width: 300px;
 }
